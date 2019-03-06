@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/IDRegisterationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/busdriverTextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/busdriverTextView"
+        android:layout_width="271dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="#14107e"
+        android:text="사용자 회원가입" />
+
+    <EditText
+        android:id="@+id/RegisterNamePlainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/busdriverTextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PhoneNumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/busdriverTextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="전화번호" />
+
+    <Button
+        android:id="@+id/IDDupCheckButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/IDRegisterationText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:text="중복확인" />
+
+    <EditText
+        android:id="@+id/PWRegisterationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/busdriverTextView"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/PWRegisterationConfirmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/busdriverTextView"
+        android:layout_marginTop="245dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        tools:ignore="DuplicateIds" />
+
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/IDRegisterationText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="취소" />
+
+    <Button
+        android:id="@+id/userRegisterComfirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cancelButton"
+        android:layout_toStartOf="@+id/IDDupCheckButton"
+        android:text="회원가입" />
+
+
+
+</RelativeLayout>

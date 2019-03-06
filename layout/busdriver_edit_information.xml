@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름 : "
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/bus_edit_name_textView"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일구지마"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/bus_edit_name_textView"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/bus_edit_name"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호 : "
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/bus_edit_phoneNum_textView"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="010-1234-5678"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/bus_edit_phoneNum_textView"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/bus_edit_phoneNum"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID : "
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/bus_edit_id_textView"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manager123"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/bus_edit_id_textView"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/bus_edit_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재PW : "
+        android:textSize="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_alignLeft="@+id/bus_edit_id_textView"
+        android:id="@+id/bus_edit_prsent_PW_textView"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="변경PW : "
+        android:textSize="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_alignLeft="@+id/bus_edit_id_textView"
+        android:id="@+id/bus_edit_next_PW_textView"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PW확인"
+        android:textSize="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_alignLeft="@+id/bus_edit_id_textView"
+        android:id="@+id/bus_edit_confirm_PW_textView"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버스 번호"
+        android:textSize="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_alignLeft="@+id/bus_edit_id_textView"
+        android:id="@+id/bus_edit_busNum_textView"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:layout_alignTop="@id/bus_edit_prsent_PW_textView"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/bus_edit_prsent_PW_editText"
+        android:password="true"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:layout_alignTop="@id/bus_edit_next_PW_textView"
+        android:layout_alignLeft="@+id/bus_edit_prsent_PW_editText"
+        android:id="@+id/bus_edit_next_PW_editText"
+        android:password="true"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:layout_alignTop="@id/bus_edit_confirm_PW_textView"
+        android:layout_alignLeft="@+id/bus_edit_prsent_PW_editText"
+        android:id="@+id/bus_edit_confirm_PW_editText"
+        android:password="true"
+        />
+
+   <Spinner
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+       android:id="@+id/bus_edit_busNum_spinner"
+       android:layout_alignTop="@+id/bus_edit_busNum_textView"
+       android:layout_alignLeft="@+id/bus_edit_prsent_PW_editText"
+
+       >
+
+
+   </Spinner>
+
+    <Button
+        android:id="@+id/withdrawal"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="회원탈퇴"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus_edit_confirm_button"
+        android:text="수정"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="540dp"
+        android:layout_alignLeft="@id/withdrawal"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bus_edit_cancel_button"
+        android:text="취소"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWrite"
+        android:layout_alignTop="@+id/bus_edit_confirm_button"
+        android:layout_alignRight="@id/withdrawal"
+
+        />
+
+
+
+</RelativeLayout>

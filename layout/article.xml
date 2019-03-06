@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"
+        android:text="전달 완료"
+        android:id="@+id/completeButton"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWrite"
+        android:visibility="invisible"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내 물건 ㅠㅠ 테스트 중입니다"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/articleTitle"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:text="버스 번호"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/busNumText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="물건"
+        android:textSize="25dp"
+        android:layout_alignLeft="@+id/busNumText"
+        android:id="@+id/objectText"
+
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBottom="@+id/objectText"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="#88000000"
+        android:id="@+id/articleImage"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/busNumText"
+        android:layout_alignRight="@id/contents"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1dp"
+        android:text="719"
+        android:textSize="25dp"
+        android:id="@+id/busNum"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지갑"
+        android:textSize="25dp"
+        android:layout_alignTop="@id/objectText"
+        android:layout_alignRight="@id/busNum"
+        android:id="@+id/articleObject"
+        />
+
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/modifyArticleButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:layout_alignTop="@id/modifyArticleButton"
+        android:layout_alignRight="@id/busNum"
+        android:id="@+id/deleteArticleButton"/>
+
+    <EditText
+        android:id="@+id/contents"
+        android:layout_width="328dp"
+        android:layout_height="172dp"
+        android:layout_alignEnd="@+id/modifyArticleButton"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="-115dp"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+</RelativeLayout>

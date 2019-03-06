@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="ILGUZIMA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF3854AE"
+        android:textSize="45dp"/>
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="102dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="로그인"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#323a87"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/IDText"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="232dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="302dp"
+        android:ems="10"
+
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:text="로그인"
+        android:id="@+id/loginButton"
+
+        />
+
+    <TextView
+        android:id="@+id/registerButton"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/loginButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="47dp"
+        android:text="회원가입"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+
+    <CheckBox
+        android:id="@+id/stayLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/passwordText"
+        android:layout_marginTop="100dp"
+        android:text="로그인 유지" />
+
+</RelativeLayout>

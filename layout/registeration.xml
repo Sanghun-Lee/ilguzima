@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/registerationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="회원가입"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="40dp"
+        android:textColor="#186ea7"/>
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="103dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:text="Welcome!"
+        android:textSize="20dp"
+        android:textColor="#186ea7"
+
+        />
+
+    <Button
+        android:id="@+id/BusDriverButton"
+        android:layout_width="180dp"
+        android:layout_height="73dp"
+        android:layout_alignStart="@+id/UserButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:text="버스기사"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/UserButton"
+        android:layout_width="174dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:text="버스 승객"
+        android:textSize="25dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/Busarticle_category"
+        android:layout_width="153dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:textSize="25dp"
+
+        android:text="글 카테고리" />
+
+    <TextView
+        android:id="@+id/Bustitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Busarticle_category"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="114dp"
+        android:text="제목"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/BusbusNumberSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Busarticle_category"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="버스 번호"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/BusobjectSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Busarticle_category"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:text="물건"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:id="@+id/Findcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Busarticle_category"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Find" />
+
+    <EditText
+        android:id="@+id/BusTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Findcategory"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="38dp"
+        android:ems="10"
+        android:hint="20자 이내"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/BusbusNumberSelectSpinner"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/BusbusNumberSelect"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/BusobjectSelectSpinner"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/BusobjectSelect"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="80dp"
+        android:layout_alignLeft="@id/BusbusNumberSelectSpinner">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/busArticleCancelButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="83dp"
+        android:text="등록"
+        android:id="@+id/busArticleRegisterButton"
+        />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="55dp"
+        android:id="@+id/busArticleCancelButton"
+        android:text="취소"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기타 상세 사항"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_alignLeft="@+id/BusobjectSelect"/>
+
+
+    <EditText
+        android:id="@+id/contents"
+        android:layout_width="258dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+</RelativeLayout>

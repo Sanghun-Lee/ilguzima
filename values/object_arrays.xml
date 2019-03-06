@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="objectList">
+        <item>물건선택</item>
+        <item>card</item>
+        <item>지갑</item>
+        <item>카드</item>
+        <item>신분증</item>
+        <item>옷</item>
+        <item>기타</item>
+        <item>우산</item>
+    </string-array>
+
+</resources>

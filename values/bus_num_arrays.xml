@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="busNumber">
+        <item>버스번호 선택</item>
+        <item>719</item>
+        <item>980</item>
+        <item>449</item>
+        <item>309</item>
+        <item>509</item>
+        <item>909</item>
+        <item>609</item>
+        <item>503</item>
+        <item>300</item>
+        <item>836</item>
+        <item>840</item>
+        <item>730</item>
+    </string-array>
+
+</resources>

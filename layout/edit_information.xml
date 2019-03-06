@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름 : "
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/edit_name_textView"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일구지마"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/edit_name_textView"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/edit_name"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호 : "
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edit_phoneNum_textView"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="010-1234-5678"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/edit_phoneNum_textView"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/edit_phoneNum"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID : "
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/edit_id_textView"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manager123"
+        android:textSize="30dp"
+        android:layout_alignTop="@+id/edit_id_textView"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/edit_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재PW : "
+        android:textSize="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_alignLeft="@+id/edit_id_textView"
+        android:id="@+id/edit_prsent_PW_textView"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="변경PW : "
+        android:textSize="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_alignLeft="@+id/edit_id_textView"
+        android:id="@+id/edit_next_PW_textView"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PW확인"
+        android:textSize="30dp"
+        android:layout_marginTop="340dp"
+        android:layout_alignLeft="@+id/edit_id_textView"
+        android:id="@+id/edit_confirm_PW_textView"
+
+        />
+
+
+
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:layout_alignTop="@id/edit_prsent_PW_textView"
+       android:layout_marginLeft="170dp"
+       android:id="@+id/edit_prsent_PW_editText"
+       android:password="true"
+
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignTop="@id/edit_next_PW_textView"
+        android:layout_alignLeft="@+id/edit_prsent_PW_editText"
+        android:id="@+id/edit_next_PW_editText"
+        android:password="true"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_alignTop="@id/edit_confirm_PW_textView"
+        android:layout_alignLeft="@+id/edit_prsent_PW_editText"
+        android:id="@+id/edit_confirm_PW_editText"
+        android:password="true"
+        />
+
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:id="@+id/edit_cancel_registeration_button"
+        android:text="회원탈퇴"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_confirm_button"
+        android:text="수정"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWrite"
+        android:layout_marginTop="520dp"
+        android:layout_alignLeft="@id/edit_cancel_registeration_button"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_cancel_button"
+        android:text="취소"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWrite"
+        android:layout_alignTop="@+id/edit_confirm_button"
+        android:layout_alignRight="@id/edit_cancel_registeration_button"
+
+        />
+
+
+</RelativeLayout>
